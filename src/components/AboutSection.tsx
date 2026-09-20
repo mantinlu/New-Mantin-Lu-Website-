@@ -16,7 +16,7 @@ export const AboutSection: React.FC = () => {
               {/* Main Photo: Executive Portrait */}
               <div className="rounded-2xl overflow-hidden shadow-xl border-4 border-white bg-[#1E232A]">
                 <img
-                  src="/images/mantin/portrait-executive.jpg"
+                  src="./images/mantin/portrait-executive.jpg"
                   alt="Mantin Lu portrait"
                   referrerPolicy="no-referrer"
                   className="w-full h-auto object-cover object-top max-h-[460px]"
@@ -26,7 +26,7 @@ export const AboutSection: React.FC = () => {
               {/* Inset Secondary Photo: With Daughter */}
               <div className="absolute -bottom-8 -right-4 sm:-right-6 w-44 sm:w-52 rounded-xl overflow-hidden shadow-2xl border-4 border-white bg-[#1E232A]">
                 <img
-                  src="/images/mantin/with-daughter.png"
+                  src="./images/mantin/with-daughter.png"
                   alt="Mantin Lu with his daughter"
                   referrerPolicy="no-referrer"
                   className="w-full h-32 sm:h-40 object-cover object-center"

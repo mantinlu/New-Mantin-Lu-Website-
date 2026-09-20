@@ -42,7 +42,7 @@ export const KEYNOTE_TALKS: Keynote[] = [
     targetAudience: ['C-Suite Executives', 'People & Culture Leaders', 'Enterprise Team Managers', 'Tech & Innovation Summits'],
     duration: '45 – 75 minutes (Customizable Keynote or Half-Day Immersion)',
     format: 'In-person Mainstage Keynote, Virtual Summit, or Executive Offsite',
-    image: '/images/mantin/stage-talk-1.png',
+    image: './images/mantin/stage-talk-1.png',
     featuredBadge: 'Signature Keynote'
   },
   {
@@ -60,7 +60,7 @@ export const KEYNOTE_TALKS: Keynote[] = [
     targetAudience: ['Engineering & Product Leaders', 'Executive Offsites', 'Corporate Strategy Summits', 'Founders & Scale-up CEOs'],
     duration: '45 – 60 minutes',
     format: 'Keynote or Interactive Executive Masterclass',
-    image: '/images/mantin/stage-talk-2.png',
+    image: './images/mantin/stage-talk-2.png',
     featuredBadge: 'High-Demand'
   },
   {
@@ -78,7 +78,7 @@ export const KEYNOTE_TALKS: Keynote[] = [
     targetAudience: ['All-Hands Corporate Events', 'Association Conferences', 'Higher Education & Parents', 'Healthcare & Wellness Summits'],
     duration: '45 – 90 minutes',
     format: 'In-person Keynote or Interactive Workshop',
-    image: '/images/mantin/stage-talk-3.png',
+    image: './images/mantin/stage-talk-3.png',
     featuredBadge: 'Audience Favorite'
   }
 ];
@@ -91,8 +91,8 @@ export const BOOK_DETAILS: BookInfo = {
   rating: 4.9,
   reviewsCount: 148,
   amazonUrl: 'https://www.amazon.com/dp/B0DJ7FBN1Y',
-  coverImage: '/images/mantin/photo-with-book.png',
-  photoWithBook: '/images/mantin/photo-with-book.png',
+  coverImage: './images/mantin/photo-with-book.png',
+  photoWithBook: './images/mantin/photo-with-book.png',
   overview: 'When executive dysfunction strikes—whether manifested as chronic procrastination, emotional meltdowns, forgotten homework, or morning chaos—parents often feel helpless, exhausted, and isolated. In "Raise Your Dragon Slayer," Mantin Lu translates twenty years of game design principles and his battle-tested experience parenting an autistic child into a compassionate, game-based framework. Rather than fighting your child, you learn how to team up and slay the real enemy: the dragons of distraction, inertia, and cognitive overload.',
   frameworkSummary: [
     {

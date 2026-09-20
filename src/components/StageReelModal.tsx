@@ -41,7 +41,7 @@ export const StageReelModal: React.FC<StageReelModalProps> = ({
         {/* Video Stage Frame */}
         <div className="relative aspect-video bg-black flex items-center justify-center overflow-hidden group">
           <img
-            src="/images/mantin/stage-talk-1.png"
+            src="./images/mantin/stage-talk-1.png"
             alt="Mantin Lu live on stage"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover opacity-80"

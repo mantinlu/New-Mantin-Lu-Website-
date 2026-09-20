@@ -104,7 +104,7 @@ export const Hero: React.FC<HeroProps> = ({ onWatchReel, onOpenBooking }) => {
               {/* Main Photo Card */}
               <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white bg-[#1E232A]">
                 <img
-                  src="/images/mantin/hero-speaking.png"
+                  src="./images/mantin/hero-speaking.png"
                   alt="Mantin Lu delivering a keynote speech on stage"
                   referrerPolicy="no-referrer"
                   className="w-full h-auto object-cover object-top max-h-[540px] transform hover:scale-[1.02] transition-transform duration-500"

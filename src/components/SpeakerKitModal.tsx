@@ -157,9 +157,9 @@ Calendar: ${MANTIN_BIO.links.calCom}
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
               {[
-                { title: 'Stage Speaking Profile', path: '/images/mantin/hero-speaking.png' },
-                { title: 'Executive Studio Portrait', path: '/images/mantin/portrait-executive.jpg' },
-                { title: 'Speaker of the Year Award', path: '/images/mantin/speaker-of-the-year.jpg' },
+                { title: 'Stage Speaking Profile', path: './images/mantin/hero-speaking.png' },
+                { title: 'Executive Studio Portrait', path: './images/mantin/portrait-executive.jpg' },
+                { title: 'Speaker of the Year Award', path: './images/mantin/speaker-of-the-year.jpg' },
               ].map((img, i) => (
                 <div key={i} className="p-2.5 rounded-xl bg-white border border-[#DDD5C7] text-center">
                   <div className="h-32 rounded-lg overflow-hidden bg-gray-100 mb-2 border border-gray-200">
